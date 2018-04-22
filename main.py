@@ -58,8 +58,8 @@ def main():
     train_error = error_rate(y_train, logistic_regressor.predict(X_train))
     test_error = error_rate(y_test, logistic_regressor.predict(X_test))
 
-    print('Training Error: %f' %train_error)
-    print('Test Error: %f' %test_error)
+    print('Training Error Rate: %f' %train_error)
+    print('Test Error Rate: %f' %test_error)
 
 
 if __name__ == '__main__':

@@ -58,8 +58,8 @@ To build logistic regressor on [Breast Cancer Wisconsin (Diagnostic)](https://ar
 
 ```bash
 $ python main
-Training Error: 0.017582
-Test Error: 0.000000
+Training Error Rate: 0.017582
+Test Error Rate: 0.000000
 ```
 
 The training loss goes down against gradient descent iterations as expected:
@@ -68,4 +68,4 @@ The training loss goes down against gradient descent iterations as expected:
     <img src = "./loss.png" width="80%">
 </p>
 
-The training error is 0.018 and the test error is 0.
+The training error rate is 0.018 and the test rate error is 0, which is extremely good for this dataset.
